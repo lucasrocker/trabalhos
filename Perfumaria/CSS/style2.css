@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(228, 227, 227);
+}
+ul{
+    list-style-type: none;
+    margin: 2;
+    padding: 2;
+    overflow: hidden;
+    background-color: #c6c7c7;
+    text-align: center;
+}
+li{
+    float:left;
+    text-align: center
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 14px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 10px;
+  }
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 25px;
+      text-align: center;
+      gap: 10px;
+    }
+label{
+    font-size:20px;}
+
+        button{
+            color: #ade8f4;
+            background-color:rgb(186, 43, 226);
+            padding: 20px 30px;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}

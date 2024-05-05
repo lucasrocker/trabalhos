@@ -1,0 +1,65 @@
+h1{
+    color: #060c0e;
+    text-align: center;
+    font-size:70px
+  
+    
+}
+body{
+    background-color:#48cae4 ;
+    font-family:'Courier New', monospace;
+    text-align:center;
+    text-shadow: #000000;
+    font-weight: bold;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 2;
+    padding: 2;
+    overflow: hidden;
+    background-color: #a3cef1;
+    text-align: center;
+    border-radius: 20px;
+}
+li{
+    float:left;
+    text-align: center
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 14px;
+}
+
+label{
+    color: rgb(1, 9, 17);
+}
+
+button{
+    color: #ade8f4;
+    background-color: #006d77;
+    padding: 14px 24px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 10px;
+}
+    .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    gap: 10px;
+    
+    }
+    li a:hover{
+        background-color: #ade8f4;
+    }
